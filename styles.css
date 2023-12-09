@@ -1,10 +1,20 @@
-  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
                                                                             @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto+Slab&display=swap');
                                                                             * {
                                                                                 margin: 0;
                                                                                 padding: 0;
                                                                                 overflow-x: hidden;
                                                                                 box-sizing: border-box;
+                                                                            }
+                                                                            
+                                                                            .wrapper {
+                                                                                overflow-x: hidden;
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                            body.modal-open {
+                                                                                overflow: hidden;
+                                                                                position: fixed;
                                                                             }
                                                                             
                                                                             html,
@@ -26,11 +36,7 @@
                                                                                 overflow-y: scroll !important;
                                                                             }
                                                                             
-                                                                            .example::-webkit-scrollbar {
-                                                                                display: none;
-                                                                            }
-                                                                            
-                                                                            html {
+                                                                            p */ html {
                                                                                 scroll-behavior: smooth;
                                                                             }
                                                                             
@@ -789,5 +795,4 @@
                                                                                 .llm1 {
                                                                                     display: none;
                                                                                 }
-                                                                            }
                                                                             }
